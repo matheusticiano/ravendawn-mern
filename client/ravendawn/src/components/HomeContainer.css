@@ -1,0 +1,63 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+  width: 60%;
+}
+
+.home-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.home-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.home-container .button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.home-container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.home-container button:hover {
+  opacity: 0.8;
+}
+
+/* Estilos adicionais para o estilo Tibia */
+.home-container {
+  background-color: rgba(0, 0, 0, 0.97);
+  color: #fff;
+}
+
+.home-container h1 {
+  color: #ffffff;
+}
+
+.home-container button {
+  background-color: #111;
+  color: #fff;
+}
+
+.home-container button:hover {
+  background-color: #737373;
+}
+
+.link {
+  color: rgba(0, 0, 0, 0);
+}
+
+
+@media (max-width: 425px) {
+    .home-container {
+      width: 100%;
+    }
+}

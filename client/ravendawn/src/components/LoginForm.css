@@ -1,0 +1,62 @@
+/* Estilos do formulário */
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .login-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .login-form button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Estilos adicionais para o estilo Tibia */
+  .login-form {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .login-form h2 {
+    color: #ffffff;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"],
+  .login-form button {
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .login-form button:hover {
+    background-color: #595959;
+  }
+  

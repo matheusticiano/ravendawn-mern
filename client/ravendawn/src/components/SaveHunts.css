@@ -1,0 +1,7 @@
+.fa-bookmark {
+    font-size: x-large;
+}
+
+.fa-bookmark.saved {
+    color: rgb(10, 2, 251);
+  }

@@ -1,0 +1,11 @@
+.hunts-list-container {
+    background-image: url('/public/img/ravencrest_4k.jpg');
+    background-size: cover;
+    min-height: 80vh;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}

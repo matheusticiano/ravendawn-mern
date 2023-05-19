@@ -1,0 +1,15 @@
+.events-container {
+    background-image:  url('/public/img/ravencrest_4k.jpg');
+    background-size:cover;
+    height: 80vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-container .events-box {
+    background-color: rgba(255, 255, 255, 0.925);
+    width: fit-content;
+    padding: 10px;
+}

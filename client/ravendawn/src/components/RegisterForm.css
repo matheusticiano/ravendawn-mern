@@ -1,0 +1,63 @@
+.register-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-form input[type="text"],
+  .register-form input[type="email"],
+  .register-form input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .register-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .register-form button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Estilos adicionais para o estilo Tibia */
+  .register-form {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .register-form h2 {
+    color: #ffffff;
+  }
+  
+  .register-form input[type="text"],
+  .register-form input[type="email"],
+  .register-form input[type="password"],
+  .register-form button {
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .register-form button:hover {
+    background-color: #595959;
+  }
+  

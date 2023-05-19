@@ -1,0 +1,29 @@
+.create-hunt-back {
+    background-image:  url('/public/img/ravencrest_4k.jpg');
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.hunt-form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(148, 147, 147);
+    padding: 20px;
+}
+
+.hunt-input{
+    margin: 10px;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.hunt-button{
+    margin: 10px;
+    padding: 10px;
+    min-width: 200px;
+}

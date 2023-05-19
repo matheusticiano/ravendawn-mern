@@ -1,0 +1,11 @@
+.fa-star {
+  font-size: x-large;
+}
+
+.fa-star.liked {
+  color: rgb(255, 247, 0);
+}
+
+span {
+  margin-left: 5%;
+}
