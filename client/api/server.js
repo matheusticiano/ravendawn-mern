@@ -23,9 +23,8 @@ const connect = async () => {
 
 app.use(cors({
     origin: ["https://ravendawn.vercel.app"],
-    exposedHeaders: ["Set-Cookie"],
     credentials: true
-  }));
+}));
 app.use(express.json());
 app.use(cookieParser());
 
