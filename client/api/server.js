@@ -22,12 +22,10 @@ const connect = async () => {
 };
 
 app.use(cors({
-    origin: ["https://ravendawn.vercel.app",
-        "https://ravendawn-o0jpbuo7s-matheusticiano.vercel.app",
-        "https://ravendawn-git-main-matheusticiano.vercel.app",
-        "https://ravendawn-matheusticiano.vercel.app"
-    ], credentials: true
-}));
+    origin: ["https://ravendawn.vercel.app"],
+    exposedHeaders: ["Set-Cookie"],
+    credentials: true
+  }));
 app.use(express.json());
 app.use(cookieParser());
 
