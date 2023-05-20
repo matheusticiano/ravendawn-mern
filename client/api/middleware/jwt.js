@@ -9,6 +9,16 @@ export const verifyToken = (req, res, next) => {
   jwt.verify(token, process.env.JWT_KEY, async (err, payload) => {
     if (err) return next(createError(403,"Token is not valid!"))
     req.userId = payload.id;
+
+    res.cookie("accessToken", token, {
+      sameSite: "none",
+      maxAge: 3 * 24 * 60 * 60 * 1000, // 3 dias em milissegundos
+      httpOnly: true,
+      domain: "https://ravendawn.onrender.com",
+      path: "/api",
+      secure: true,
+    });
+    
     next()
   });
 };
