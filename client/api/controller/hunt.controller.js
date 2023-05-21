@@ -3,12 +3,18 @@ import User from "../models/user.model.js"
 import createError from "../utils/createError.js";
 
 export const createHunt = async (req, res, next) => {
-  const newHunt = new Hunt({
-    userId: req.userId,
-    ...req.body,
-  });
-
   try {
+    const user = await User.findById(req.userId);
+    if (!user) {
+      return next(createError(404, "User not found"));
+    }
+
+    const newHunt = new Hunt({
+      userId: req.userId,
+      creator: user.username,
+      ...req.body,
+    });
+
     const savedHunt = await newHunt.save();
     res.status(201).json(savedHunt);
   } catch (err) {

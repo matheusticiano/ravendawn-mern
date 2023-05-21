@@ -26,6 +26,10 @@ const huntSchema = new Schema({
         type: String,
         required: true,
     },
+    creator: {
+        type: String,
+        ref: 'User',
+      },
     image: {
         type: String,
         required: true,
